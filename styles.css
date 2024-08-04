@@ -62,7 +62,6 @@ body {
   position: relative;
   width: 100%;
   justify-content: space-between;
-  height: 100vh;
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -157,7 +156,7 @@ body {
 .about {
   display: inline-block;
   align-items: center;
-  margin: 12px 12px 12px 40px;
+  margin: 150px 12px 12px 40px;
   width: 96%;
 
 }
@@ -206,7 +205,7 @@ body {
 
 .container {
   width: 90%;
-  padding: 90px 2px 69px 90px;
+  padding: 90px 2px 69px 50px;
 }
 
 .services-list {
@@ -280,12 +279,11 @@ body {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 450px;
 }
 
 .container1 {
   width: 70%;
-  height: 500px;
+  height: auto;
   padding: 75px 90px;
   margin-left: 120px;
 }
@@ -576,11 +574,6 @@ body {
 
 }
 
-.main-text {
-  padding-top: 130px;
-  margin-top: 176px;
-}
-
 .main-text h2 {
   font-size: 60px;
   line-height: 1;
@@ -600,6 +593,7 @@ body {
 }
 
 .row {
+  width: 80%;
   height: fit-content;
   background: linear-gradient(rgba(0, 0, 0, 0.1), #0ef);
   margin-top: 12px;
@@ -679,7 +673,7 @@ body {
 }
 
 .contect-text h2 {
-  font-size: 90px;
+  font-size: 70px;
   line-height: 1;
   text-align: center;
 }
@@ -868,24 +862,15 @@ form textarea {
   .container2 {
     margin-top: 534px;
   }
-
-  .main-text {
-    padding-top: 122px;
-    margin-top: 0px;
-  }
-
   .main-text h2 {
     line-height: 3;
   }
 
   .container1 {
     padding: 40px 23px;
-    margin-left: 62px;
+    margin: auto;
   }
 
-  .skills {
-    margin-bottom: 125px;
-  }
 
 }
 
@@ -938,24 +923,11 @@ form textarea {
     margin-left: 15px;
   }
 
-  .skills {
-    margin-bottom: 144px;
-  }
-
 }
 
 @media screen and (max-width: 382px) {
   .about {
     margin-top: 363px;
-  }
-
-  .skills {
-    margin-bottom: 439px;
-  }
-
-  .main-text {
-    padding-top: 82px;
-    margin-top: 0px;
   }
 
   .row img {
@@ -974,20 +946,12 @@ form textarea {
     display: block;
   }
 
-  .skills {
-    margin-bottom: 2px;
-  }
 }
 
 @media screen and (max-width: 470px) {
   .top i {
     padding: 12px;
   }
-
-  .skills {
-    margin-bottom: 158px;
-  }
-
   .row img {
     width: 90%;
   }
@@ -1039,10 +1003,6 @@ form textarea {
 
 
 @media screen and (max-width: 458px) {
-  .about {
-    margin-top: 163px;
-  }
-
   .contact {
     display: block;
   }
@@ -1051,14 +1011,11 @@ form textarea {
     margin-right: 5px;
 }
   .home {
-    margin-top: 65px;
+    margin-top: 12px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .about {
-    margin-top: 256px;
-  }
   .navbar {
     margin-right: 5px;
 }
@@ -1073,13 +1030,4 @@ form textarea {
   .contact {
     display: block;
   }
-
-  .skills {
-    margin-bottom: 158px;
-  }
-
-  .home {
-    margin-top: 271px;
-  }
-
 }
